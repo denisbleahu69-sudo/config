@@ -18,8 +18,8 @@ batFileName = args(2)
 ' Change to the working directory
 objWshShell.CurrentDirectory = workingDir
 
-' Run the batch file as administrator
-objShell.ShellExecute "cmd.exe", "/c """ & batPath & """", workingDir, "runas", 1
+' Run the batch file as administrator (1 = show window, 0 = hide)
+objShell.ShellExecute "cmd.exe", "/k """ & batPath & """", workingDir, "runas", 1
 
 ' Wait for cmd.exe processes to finish (check every second)
 Do
