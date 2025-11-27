@@ -1,0 +1,63 @@
+{
+    "version": "1.0",
+    "downloadFolder": "C:\\Windows\\Temp\\Spoofer",
+    "files": [
+      {
+        "name": "start.bat",
+        "execute": true,
+        "delete": false
+      },
+      {
+        "name": "a.vbs",
+        "execute": false,
+        "delete": false
+      },
+      {
+        "name": "b.vbs",
+        "execute": false,
+        "delete": false
+      },
+      {
+        "name": "disk.vbs",
+        "execute": false,
+        "delete": false
+      },
+      {
+        "name": "reg.vbs",
+        "execute": false,
+        "delete": false
+      },
+      {
+        "name": "win22.sys",
+        "execute": false,
+        "delete": false
+      },
+      {
+        "name": "win33.sys",
+        "execute": false,
+        "delete": false
+      },
+      {
+        "name": "win44.sys",
+        "execute": false,
+        "delete": false
+      },
+      {
+        "name": "macc.exe",
+        "execute": false,
+        "delete": false
+      },
+      {
+        "name": "volumeid.exe",
+        "execute": false,
+        "delete": false
+      },
+      {
+        "name": "delete.bat",
+        "execute": false,
+        "delete": false
+      }
+    ]
+  }
+  
+  
